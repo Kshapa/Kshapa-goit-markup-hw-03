@@ -7,11 +7,36 @@
     --black-color: #000000;
 }
 
+h1,h2,h3,h4,p,ul {
+    padding: 0px;
+}
+
 
 body {
     font-family: Roboto, sans-serif;
 
     color: var(--primari-text-color);
+}
+
+
+.conteiner {
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner>.group {
+    display: flex;
+    margin-right: 93px;
+}
+
+.header-nav {
+    display: flex;
+    margin-left: 93px;
+}
+.header-contact{
+    margin-left: auto;
 }
 
 .logo {
