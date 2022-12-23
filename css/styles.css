@@ -21,23 +21,27 @@ body {
 
 .conteiner {
     display: flex;
-    width: 1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .conteiner>.group {
     display: flex;
-    margin-right: 93px;
 }
 
 .header-nav {
     display: flex;
-    margin-left: 93px;
 }
-.header-contact{
+.header-contact {
+    display: flex;
     margin-left: auto;
 }
+
+.header-contact-item:last-child {
+    margin-left: 20px;
+}
+
 
 .logo {
     color: var(--accent-color);
