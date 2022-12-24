@@ -40,6 +40,10 @@ body {
     margin-left: auto;
 }
 
+.item {
+    margin-left: 50px;
+}
+
 .logo {
     color: var(--accent-color);
 
@@ -86,14 +90,14 @@ body {
         letter-spacing: 0.02em;
 }
 
-.header-nav-item:hover,
+/* .header-nav-item:hover,
 .header-nav-item:focus {
     color: var(--accent-color);
 }
 .header-contact-item:hover,
 .header-contact-item:focus {
     color: var(--accent-color);
-}
+} */
 
 
 
