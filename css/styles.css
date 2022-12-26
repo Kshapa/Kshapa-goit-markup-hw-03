@@ -105,12 +105,17 @@ ul {
 display: flex;
 flex-wrap: wrap;
 margin-top: 50px;
+margin-left: -30px;
 }
 
-.content-photo:not(:last-child) {
-margin-right: 30px;
-    flex-basis: calc(100%/3)-30px;
+.content-photo {
+    width: 370px;
+    margin-left: 30px;
 }
+
+/* .content-photo:not(:last-child) {
+margin-right: 30px;
+} */
 
 
 /* span!!!: */
