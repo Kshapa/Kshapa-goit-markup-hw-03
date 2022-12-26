@@ -103,19 +103,17 @@ ul {
 
 .variety-conten {
 display: flex;
-flex-wrap: wrap;
+/* justify-content: space-between; */
 margin-top: 50px;
-margin-left: -30px;
 }
 
 .content-photo {
-    width: 370px;
-    margin-left: 30px;
+    width: calc(100%/3 );
 }
 
-/* .content-photo:not(:last-child) {
+.content-photo:not(:last-child) {
 margin-right: 30px;
-} */
+}
 
 
 /* span!!!: */
