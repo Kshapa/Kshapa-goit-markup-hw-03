@@ -113,18 +113,18 @@ img {
 
 .variety-content {
 display: flex;
-flex-wrap: wrap;
+/* justify-content: space-between; */
 margin-top: 50px;
 }
 
-
-.variety-content > .item {
-    flex-basis: calc(100%/3) - var(--margin-gap);
+.content-photo {
+    width: 370px;
+    margin-left: 30px;
 }
 
-.variety-content>.item:not(:last-child) {
-margin-right: var(--margin-gap);
-}
+/* .content-photo:not(:last-child) {
+margin-right: 30px;
+} */
 
 
 /* span!!!: */
