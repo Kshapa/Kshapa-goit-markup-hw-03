@@ -6,6 +6,8 @@
     --secondary-background-color: #2F303A;
     --black-color: #000000;
     --margin-gap: 30px;
+    --border-card: 1px solid #EEEEEE;
+    --color-button-filter: #F5F4FA;
 }
 
 
@@ -194,20 +196,26 @@ margin-bottom: 50px;
     margin-right: 5px;
 }
 
-.main-filter-button {
-    padding: 6px 22px;
-    color: var(--primari-text-color);
-}
-
 .main-filter-item {
     cursor: pointer;
 }
 
-.main-filter-item:hover,
-.main-filter-item:focus {
-    color: white;
-    background-color: #2196F3;
+.main-filter-button {
+    padding: 6px 22px;
+    color: var(--primari-text-color);
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    cursor: pointer;
 }
+.main-filter-button:hover,
+.main-filter-button:focus {
+color: var(--color-button-filter);
+background-color: var(--accent-color);
+}
+
+
+
 
 /* main-portfolio-content*/
 
@@ -223,12 +231,15 @@ margin-bottom: 50px;
  flex-basis: calc(100%/3) - var(--margin-gap);
  margin-left: var(--margin-gap);
  margin-top: var(--margin-gap);
+
+ cursor: pointer;
 }
 
 .card-content {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 24px;
+    padding: 20px 24px;
+
+    border: var(--border-card);
+   
 }
 
 .main-content-title {
