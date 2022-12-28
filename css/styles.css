@@ -42,7 +42,8 @@ img {
 
 .conteiner {
     width: 1200px;
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -50,9 +51,9 @@ img {
 
 }
 
-.section {
+/* .section {
     margin-top: 94px;
-}
+} */
 
 .header>.conteiner {
     display: flex;
@@ -111,6 +112,11 @@ img {
 
 .spetial-title {
     margin-bottom: 10px;
+}
+
+.section-what-are-we-doing > .conteiner {
+    padding-top: 94;
+    padding-bottom: 94;
 }
 
 .variety-content {
@@ -355,6 +361,36 @@ background-color: var(--accent-color);
     letter-spacing: 0.03em;
 }
 
+.our-team {
+
+    /* margin-top: 94px;
+    padding-bottom: 94px; */
+}
+.our-team {
+    
+}
+.staff-summary {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.staff-summary > .item {
+flex-basis: calc(100%/4) - var(--margin-gap);
+
+    cursor: pointer;
+}
+
+.staff-summary>.item:not(:last-child) {
+    margin-right: var(--margin-gap);
+}
+
+.card-name {
+
+    padding-top: 30px ;
+    padding-bottom: 30px;
+    text-align: center
+;
+}
 
 .variety,
 .staff {
@@ -370,6 +406,8 @@ background-color: var(--accent-color);
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+
+    margin-bottom: 10px;
 }
 
 .staff-order {
